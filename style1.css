@@ -1,0 +1,39 @@
+/* Change font style */
+body {
+    font-family: 'Arial', sans-serif; /* You can replace this with any font you prefer */
+    background-color: #f0f0f0; /* Light grey background */
+    margin: 20px; /* Add spacing around the entire body */
+}
+
+/* Custom styling for the header */
+h1 {
+    font-family: 'Georgia', serif; /* A different font for the header */
+    color: #333333; /* Dark grey color for text */
+    text-align: center; /* Center the heading */
+    margin-bottom: 30px; /* Space below the header */
+}
+
+/* Paragraph styling */
+p {
+    font-size: 16px; /* Set a font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #555555; /* Medium grey for paragraph text */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50; /* Green background for the button */
+    color: white; /* White text on the button */
+    border: none;
+    padding: 10px 20px; /* Add padding around the text */
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for background change */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovered */
+}
